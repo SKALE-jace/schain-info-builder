@@ -1,14 +1,20 @@
 # schain-info-builder
 collect chains.json and transform the data
+searches and filters the data for the chains you add or (blank == all)
 
-searches and filters the data for the chains you add 
-(blank == all)
 
-run the command with chain names ex. honorable-steel-rasalhague
-`node mainnetEndpoints.js <chain1> <chain2>` 
+run 
+```console
+npm install
+```
+
+run with chain names (ex. honorable-steel-rasalhague)
+```console
+node mainnetEndpoints.js <chain1> <chain2>
+```
 
 Outputs:
- 
+ ```
  [
   {
     "schain": {
@@ -23,6 +29,7 @@ Outputs:
         "http_endpoint_ip": ,
         "https_endpoint_ip": 
       }
-      
+      ...
       }
  ]
+```
