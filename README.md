@@ -4,7 +4,7 @@ collect chains.json and transform the data
 searches and filters the data for the chains you add 
 (blank == all)
 
-run the command
+run the command with chain names ex. honorable-steel-rasalhague
 `node mainnetEndpoints.js <chain1> <chain2>` 
 
 Outputs:
@@ -23,8 +23,6 @@ Outputs:
         "http_endpoint_ip": ,
         "https_endpoint_ip": 
       }
-      
-      ...
       
       }
  ]
