@@ -1,21 +1,29 @@
 {
   "name": "schain-info-builder",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "description": "collect chains.json and transform the data ",
   "main": "mainnetEndpoints.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mainnet:chains": "node getChainConfig.js -m",
+    "mainnet:chains:nodes": "node getChainConfig.js -m -n",
+    "staging:chains": "node getChainConfig.js -s",
+    "staging:chains:nodes": "node getChainConfig.js -s -n",
+    "mainnet:custom": "node getChainConfig.js -m -c",
+    "mainnet:custom:nodes": "node getChainConfig.js -m -c",
+    "staging:custom": "node getChainConfig.js -s -c",
+    "staging:custom:nodes": "node getChainConfig.js -s -n -c"
   },
   "author": "SKALE-jace",
-  "license": "N/A",
-  "dependencies": {
-  },
-  "devDependencies": {
-    "axios": "^1.4.0",
-    "web3": "^1.9.0"
-  },
+  "license": "MIT",
+
   "repository": {
     "type": "git",
     "url": "git://github.com/SKALE-jace/schain-info-builder.git"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "commander": "^10.0.1",
+    "web3-utils": "^1.10.0"
   }
 }
