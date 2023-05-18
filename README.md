@@ -43,7 +43,7 @@ Outputs with `--nodes` flag:
       ...
       }
  ]
-
+```
  Outputs without `--nodes` flag:
  ```
 [
