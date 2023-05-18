@@ -16,7 +16,7 @@ node getChainConfig.js <chain>
 
 run with comma separated chain-names (ex. honorable-steel-rasalhague,green-giddy-denebola )
 ```console
-nodegetChainConfig.js <chain1>, <chain2>
+node getChainConfig.js <chain1>, <chain2>
 ```
 run blank for all chains on set network (-s | staging, -m | mainnet )
 ```console
@@ -46,12 +46,14 @@ Outputs with `--nodes` flag:
 
  Outputs without `--nodes` flag:
  ```
- [
+[
   {
     "schain": {
-      "chain_name": <<chain>>,
-      "chain_id": hex | dec",
-      "explorer": "https://<<chain>>.explorer.mainnet.skalenodes.com"
+      "chain_name": "staging-legal-crazy-castor",
+      "chain_id": "0x1c6199cc | 476158412",
+      "proxy_endpoint": "https://staging-v3.skalenodes.com/v1/staging-legal-crazy-castor",
+      "explorer": "https://staging-legal-crazy-castor.explorer.staging-v3.skalenodes.com"
     }
- ]
+  }
+]
 ```
