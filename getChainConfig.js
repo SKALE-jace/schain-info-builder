@@ -73,8 +73,8 @@ axios.get(chainsJSON[0])
     
       return {
         chain_name: schainName,
-        proxy_endpoint: chainProxy,
         chain_id: `0x${hash} | ${parseInt(hash, 16)}`,
+        proxy_endpoint: chainProxy,
         explorer: chainExplorer,
       };
     };

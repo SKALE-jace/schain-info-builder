@@ -1,0 +1,10 @@
+[
+  {
+    "schain": {
+      "chain_name": "staging-legal-crazy-castor",
+      "chain_id": "0x1c6199cc | 476158412",
+      "proxy_endpoint": "https://staging-v3.skalenodes.com/v1/staging-legal-crazy-castor",
+      "explorer": "https://staging-legal-crazy-castor.explorer.staging-v3.skalenodes.com"
+    }
+  }
+]
