@@ -2,7 +2,7 @@
   "name": "schain-info-builder",
   "version": "1.0.2",
   "description": "collect chains.json and transform the data ",
-  "main": "mainnetEndpoints.js",
+  "main": "getChainConfig.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "mainnet:chains": "node getChainConfig.js -m",
